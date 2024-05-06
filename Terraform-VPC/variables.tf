@@ -6,4 +6,5 @@ variable "vpc_cidr" {
 variable "subnet_cidr" {
     description = "Subnet CIDRS"
     type = list(string)
+    
 }
